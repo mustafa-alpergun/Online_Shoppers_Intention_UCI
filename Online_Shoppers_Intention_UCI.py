@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import accuracy_score
@@ -43,6 +42,7 @@ plot_tree(
 )
 plt.title("What are people most interested in?")
 plt.show()
+
 
 
 
